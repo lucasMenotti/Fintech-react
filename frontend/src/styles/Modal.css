@@ -1,0 +1,117 @@
+
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* Fundo semi-transparente escuro */
+    background-color: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal {
+
+    background: white; 
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    position: relative;
+    width: 90%;
+    max-width: 500px;
+    color: #333;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 25px; 
+    border-bottom: 1px solid #eee; 
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+}
+
+
+.modal-close-button {
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #aaa;
+    line-height: 1;
+}
+
+.modal-body label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #333;
+}
+
+.modal-body input[type="text"],
+.modal-body input[type="number"],
+.modal-body input[type="date"],
+.modal-body select {
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    box-sizing: border-box; 
+    margin-top: 5px;
+}
+
+.modal-body .flex.justify-end.space-x-3 button {
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+
+.modal-body .text-gray-700.hover\\:bg-gray-50 { 
+    background: none;
+    border: 1px solid #ccc;
+    color: #555;
+}
+
+
+.modal-body .bg-red-600.hover\\:bg-red-700 {
+    background-color: #1f2937; 
+    color: white;
+    border: none;
+}
+
+.modal-buttons .btn {
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.2s;
+}
+
+
+.modal-buttons .btn-cancel {
+    background: none;
+    border: 1px solid #ccc;
+    color: #555;
+}
+
+.modal-buttons .btn-submit {
+    background-color: #0F172A; 
+    color: white; 
+    border: none;
+}
+.modal-buttons .btn-submit:hover {
+
+    background-color: #1e293b; 
+}

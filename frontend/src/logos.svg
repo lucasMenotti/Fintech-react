@@ -1,0 +1,56 @@
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 400 400"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      className={className}
+    >
+      <defs>
+        <linearGradient id="growthGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+          <stop offset="0%" stopColor="#3b82f6" stopOpacity="1" />
+          <stop offset="100%" stopColor="#1e5a8e" stopOpacity="1" />
+        </linearGradient>
+      </defs>
+
+      <path d="M 200 360 L 140 280 L 260 280 Z" fill="url(#growthGrad)" />
+
+      <path d="M 60 300 L 80 300 L 80 330 L 60 330 Z" fill="url(#growthGrad)" />
+      <path d="M 50 285 L 70 300 L 90 285 Z" fill="url(#growthGrad)" />
+      <path d="M 70 330 L 50 360 L 90 360 Z" fill="url(#growthGrad)" />
+
+      <path d="M 110 260 L 130 260 L 130 320 L 110 320 Z" fill="url(#growthGrad)" />
+      <path d="M 100 240 L 120 260 L 140 240 Z" fill="url(#growthGrad)" />
+      <path d="M 120 320 L 100 350 L 140 350 Z" fill="url(#growthGrad)" />
+      
+
+      <path d="M 155 180 L 175 180 L 175 300 L 155 300 Z" fill="url(#growthGrad)" />
+      <path d="M 145 155 L 165 180 L 185 155 Z" fill="url(#growthGrad)" />
+      <path d="M 165 300 L 145 335 L 185 335 Z" fill="url(#growthGrad)" />
+
+      <path d="M 195 120 L 215 120 L 215 290 L 195 290 Z" fill="url(#growthGrad)" />
+      <path d="M 185 90 L 205 120 L 225 90 Z" fill="url(#growthGrad)" />
+      <path d="M 205 290 L 185 325 L 225 325 Z" fill="url(#growthGrad)" />
+
+      <path d="M 235 50 L 255 50 L 255 280 L 235 280 Z" fill="#3b82f6" />
+      <path d="M 220 15 L 245 50 L 270 15 Z" fill="#3b82f6" />
+      <path d="M 245 280 L 220 320 L 270 320 Z" fill="#3b82f6" />
+
+      <path d="M 275 120 L 295 120 L 295 290 L 275 290 Z" fill="url(#growthGrad)" />
+      <path d="M 265 90 L 285 120 L 305 90 Z" fill="url(#growthGrad)" />
+      <path d="M 285 290 L 265 325 L 305 325 Z" fill="url(#growthGrad)" />
+      
+
+      <path d="M 315 180 L 335 180 L 335 300 L 315 300 Z" fill="url(#growthGrad)" />
+      <path d="M 305 155 L 325 180 L 345 155 Z" fill="url(#growthGrad)" />
+      <path d="M 325 300 L 305 335 L 345 335 Z" fill="url(#growthGrad)" />
+      
+<path d="M 360 260 L 380 260 L 380 320 L 360 320 Z" fill="url(#growthGrad)" />
+      <path d="M 350 240 L 370 260 L 390 240 Z" fill="url(#growthGrad)" />
+      <path d="M 370 320 L 350 350 L 390 350 Z" fill="url(#growthGrad)" />
+      
+ 
+      <path d="M 410 300 L 430 300 L 430 330 L 410 330 Z" fill="url(#growthGrad)" />
+      <path d="M 400 285 L 420 300 L 440 285 Z" fill="url(#growthGrad)" />
+      <path d="M 420 330 L 400 360 L 440 360 Z" fill="url(#growthGrad)" />
+    </svg>
